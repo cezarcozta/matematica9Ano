@@ -125,18 +125,20 @@ section.card-container section.copyright p{
 
 section.card #info-title p{
 	font-size: 0.7em;
-	margin: 0 10em 0 10em
+	margin: 0 10em 0 10em;
 }
 
-section.dados div.card div.wrapper_{
+section.welcome-intro div.card div.wrapper_{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
 }
 
-section.dados div.card div.wrapper_ p strong{
+section.welcome-intro div.card div.wrapper_ p strong{
 	display: flex;
 }
+
 
 
 #info-author-data{
@@ -148,24 +150,31 @@ div.wrapper {
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: space-around;
-
 	padding: 1em;
 }
 
-#column {
+div.wrapper .column #item{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	justify-content: flex-start;
+
+	padding: 0.75em;
 }
 
-p.title {
-	-epub-hyphens: none;
-	color: rgba(0, 89, 0.49);
+div.wrapper p.title span {
+	color: rgb(0, 131, 201);
 	font-family: "Myriad MM (T1) Regular", sans-serif;
-	font-size: 10px;
+	font-size: 0.75em;
 	font-weight: bold;
 }
+
+div.wrapper p.name span {
+	color: rgb(0, 0, 0);
+	font-family: "Myriad MM (T1) Regular", sans-serif;
+	font-size: 0.75em;
+	font-weight: light;
+}
+
 
 footer.logo {
 	display: flex;
@@ -185,4 +194,15 @@ footer.logo {
 #address p {
 	font-size: 1em;
 	line-height: 0.8em;
+}
+
+span.welcome-text {
+	color: rgb(0, 131, 201);
+	font-family: Calibri, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: normal;
+}
+section.welcome-intro span{
+	display: flex;
 }
