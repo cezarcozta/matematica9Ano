@@ -14,10 +14,9 @@ html {
 }
 
 .container {
-  display: flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 }
 
 p {
@@ -29,11 +28,143 @@ p {
 img {
   max-width: 100%;
   display: block;
-  margin-top: 20px;
-  margin-bottom: 10px;
 }
 
-h1 {
-  margin-top: 10px;
-  margin-bottom: 20px;
+main{
+	background-color:rgb(211,211,211);
+	width: 800px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section.author-bio {
+	position: relative;
+	max-width: 475px;
+	left: 100px;
+	right: 0;
+	bottom: 0;
+	top: -350px;
+}
+
+section.author-bio p {
+  font-size: 1.1em;
+}
+
+section.author-bio span {
+  font-size: 1.3em;
+}
+
+ul,
+ol {
+	margin: 0.75em 0;
+	margin-left: -1em;
+	padding: 0 1em;
+	list-style: none;
+}
+
+ul li::before {
+	content: "";
+	border-color: transparent rgb(0, 131, 201);
+	border-style: solid;
+	border-width: 0.35em 0 0.35em 0.45em;
+	display: block;
+	height: 0;
+	width: 0;
+	left: -1em;
+	top: 1.2em;
+	position: relative;
+}
+
+ol li::marker {
+	content: "▶";
+}
+
+footer.front-footer {
+	position: relative;
+	max-width: 350px;
+	left: 2em;
+	right: 0;
+	bottom: 0;
+	top: -330px;
+}
+
+footer.front-footer p{
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+section.card-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-top: -15em;
+}
+
+.card {
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+	padding: 1em;
+	-webkit-box-shadow: 8px 8px 15px 5px rgba(0, 0, 0, 0.37);
+	box-shadow: 8px 8px 15px 5px rgba(0, 0, 0, 0.37);
+	max-width: 600px;
+}
+
+section#copyrigth {
+	padding: 1em;
+}
+
+section#copyrigth p{
+	max-width: 750px;
+	font-size: 1em;
+}
+
+#info-author-data{
+	border: 2px solid rgb(0, 0, 0);
+}
+
+div.wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-around;
+
+	padding: 1em;
+}
+
+#column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+p.title {
+	-epub-hyphens: none;
+	color: rgba(0, 89, 0.49);
+	font-family: "Myriad MM (T1) Regular", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+footer.logo {
+	display: flex;
+	padding: 1em;
+	width: 100%;
+	justify-content: center;
+}
+
+#img-logo {
+	margin: 1em;
+}
+
+#address {
+	margin: 10px;
+}
+
+#address p {
+	font-size: 1em;
+	line-height: 0.8em;
 }
