@@ -110,16 +110,34 @@ section.card-container{
 	-webkit-box-shadow: 8px 8px 15px 5px rgba(0, 0, 0, 0.37);
 	box-shadow: 8px 8px 15px 5px rgba(0, 0, 0, 0.37);
 	max-width: 600px;
+
+	border-radius: 0.5em
 }
 
-section#copyrigth {
+section.card-container section.copyright{
 	padding: 1em;
+	max-width: 75% 
 }
 
-section#copyrigth p{
-	max-width: 750px;
-	font-size: 1em;
+section.card-container section.copyright p{
+	font-size: 0.7em;
 }
+
+section.card #info-title p{
+	font-size: 0.7em;
+	margin: 0 10em 0 10em
+}
+
+section.dados div.card div.wrapper_{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section.dados div.card div.wrapper_ p strong{
+	display: flex;
+}
+
 
 #info-author-data{
 	border: 2px solid rgb(0, 0, 0);
