@@ -210,9 +210,17 @@ section.welcome-intro span{
 .questions {
 	background-color: white;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	align-items: flex-start;
 }
 
-.questions aside{
-	border: 1px solid red;
+.questions aside {
+
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.questions aside div{
+	margin: 1em;
 }
