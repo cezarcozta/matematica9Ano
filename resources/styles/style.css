@@ -175,7 +175,6 @@ div.wrapper p.name span {
 	font-weight: light;
 }
 
-
 footer.logo {
 	display: flex;
 	padding: 1em;
@@ -203,6 +202,17 @@ span.welcome-text {
 	font-style: normal;
 	font-weight: normal;
 }
+
 section.welcome-intro span{
 	display: flex;
+}
+
+.questions {
+	background-color: white;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.questions aside{
+	border: 1px solid red;
 }
