@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+main{
+	background-color:rgb(211,211,211);
+	width: 800px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section.author-bio {
+	position: relative;
+	max-width: 475px;
+	left: 100px;
+	right: 0;
+	bottom: 0;
+	top: -350px;
+}
+
+section.author-bio p {
+  font-size: 1.1em;
+}
+
+section.author-bio span {
+  font-size: 1.3em;
+}
+
+ul,
+ol {
+	margin: 0.75em 0;
+	margin-left: -1em;
+	padding: 0 1em;
+	list-style: none;
+}
+
+ul li::before {
+	content: "";
+	border-color: transparent rgb(0, 131, 201);
+	border-style: solid;
+	border-width: 0.35em 0 0.35em 0.45em;
+	display: block;
+	height: 0;
+	width: 0;
+	left: -1em;
+	top: 1.2em;
+	position: relative;
+}
+
+ol li::marker {
+	content: "▶";
+}
+
+footer.front-footer {
+	position: relative;
+	max-width: 350px;
+	left: 2em;
+	right: 0;
+	bottom: 0;
+	top: -330px;
+}
+
+footer.front-footer p{
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+section.card-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-top: -15em;
+}
+
+.card {
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+	padding: 1em;
+	-webkit-box-shadow: 8px 8px 15px 5px rgba(0, 0, 0, 0.37);
+	box-shadow: 8px 8px 15px 5px rgba(0, 0, 0, 0.37);
+	max-width: 600px;
+
+	border-radius: 0.5em
+}
+
+section.card-container section.copyright{
+	padding: 1em;
+	max-width: 75% 
+}
+
+section.card-container section.copyright p{
+	font-size: 0.7em;
+}
+
+section.card #info-title p{
+	font-size: 0.7em;
+	margin: 0 10em 0 10em;
+}
+
+section.welcome-intro div.card div.wrapper_{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+section.welcome-intro div.card div.wrapper_ p strong{
+	display: flex;
+}
+
+
+
+#info-author-data{
+	border: 2px solid rgb(0, 0, 0);
+}
+
+div.wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-around;
+	padding: 1em;
+}
+
+div.wrapper .column #item{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+	padding: 0.75em;
+}
+
+div.wrapper p.title span {
+	color: rgb(0, 131, 201);
+	font-family: "Myriad MM (T1) Regular", sans-serif;
+	font-size: 0.75em;
+	font-weight: bold;
+}
+
+div.wrapper p.name span {
+	color: rgb(0, 0, 0);
+	font-family: "Myriad MM (T1) Regular", sans-serif;
+	font-size: 0.75em;
+	font-weight: light;
+}
+
+footer.logo {
+	display: flex;
+	padding: 1em;
+	width: 100%;
+	justify-content: center;
+}
+
+#img-logo {
+	margin: 1em;
+}
+
+#address {
+	margin: 10px;
+}
+
+#address p {
+	font-size: 1em;
+	line-height: 0.8em;
+}
+
+span.welcome-text {
+	color: rgb(0, 131, 201);
+	font-family: Calibri, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+section.welcome-intro span{
+	display: flex;
+}
+
+.questions {
+	background-color: white;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+
+.questions aside {
+
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.questions aside div{
+	margin: 1em;
+}
