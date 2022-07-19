@@ -227,21 +227,42 @@ section.welcome-intro span{
 #left aside{
 	margin-bottom: 10em;
 }
-/* Feito por Gabriel Brelaz */
 
 /* PÁGINA 7 */
 
 .slanted-card {
 	background-color: rgb(255, 255, 255);
 	margin: 50px 100px;
-	padding: 50px 80px;
+	padding: 50px;
 	border-radius: 25px;
+	-webkit-box-shadow: 8px 8px 15px 5px rgba(0, 0, 0, 0.37);
+	box-shadow: 8px 8px 15px 5px rgba(0, 0, 0, 0.37);
 }
 
-.content-slanted-card img {
-	width: 80px;
-	height: 80px;
+.content-slanted-card .icon1 {
 	margin-top: 0.2rem;
+	width: 1000px;
+}
+.content-slanted-card .icon2 {
+	margin-top: 0.2rem;
+	width: 240px;
+}
+.content-slanted-card .icon3 {
+	margin-top: 0.2rem;
+	width: 215px;
+}
+.content-slanted-card .icon4 {
+	margin-top: 0.2rem;
+	width: 210px;
+}
+.content-slanted-card .icon5 {
+	margin-top: 0.2rem;
+	width: 510px;
+}
+
+.content-slanted-card .icon6 {
+	margin-top: 0.2rem;
+	width: 550px;
 }
 
 .two-coluns {
@@ -261,63 +282,32 @@ h2 {
 .h3 {
 	color:#0080c9;
 	font-family:Calibri, sans-serif;
-	font-size:1.3rem;
+	font-size:1.4rem;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:bold;
 	line-height:1.2;
+	margin: 20px 0;
 }
 
-.p {
-	font-family:Calibri, sans-serif;
-	font-size:1.2rem;
-	line-height: 1.4;
-}
 
 /* PÁGINA 7 */
 
+
 /* PÁGINA 8 */
-
-.slanted-card {
-	background-color: rgb(255, 255, 255);
-	margin: 50px 100px;
-	padding: 50px 80px;
-	border-radius: 25px;
-}
-
-.content-slanted-card img {
-	width: 80px;
-	height: 80px;
-	margin-top: 0.2rem;
-}
-
-
-h2 {
-	font-size: 4rem;
-	color:#0080c9;
-	font-family:Calibri, sans-serif;
-	display: flex;
-	justify-content: center;
-}
-
-
-.summary-unit {
-	margin: 50px 0;
-}
 
 
 .summary-title {
 	color:#0080c9;
 	font-family:Calibri, sans-serif;
-	font-size:2.0rem;
+	font-size:1.6rem;
 	font-style:normal;
 	font-variant:normal;
 	line-height:1.2;
-	margin: 20px 0;
 }
 
-.chapter li {
- list-style: none;
+.page8 ul li::before {
+ list-style:none;
 }
 
 
@@ -325,249 +315,101 @@ h2 {
 	text-transform: uppercase;
 	color: red;
 	font-weight: bold;
+	font-size: 0.9rem;
 }
 
 .chapter-subtitle span {
 	font-size: 1.0rem;
 	font-weight: bold;
+}
+
+
+.unit1 img {
+	position: absolute;
+	width: 100px;
+	display: flex;
+		left:0px;
+	margin-top: 40px;
+}
+
+.unit2 img {
+	position: absolute;
+	width: 100px;
+	display: flex;
+	left:0px;
 }
 
 /* PÁGINA 8 */
 
 /* PÁGINA 9 */
 
-.slanted-card {
-	background-color: rgb(255, 255, 255);
-	margin: 50px 100px;
-	padding: 50px 80px;
-	border-radius: 25px;
-}
 
-.content-slanted-card img {
-	width: 80px;
-	height: 80px;
-	margin-top: 0.2rem;
-}
-
-
-h2 {
-	font-size: 4rem;
-	color:#0080c9;
-	font-family:Calibri, sans-serif;
+.unit3 img {
+	position: absolute;
+	width: 100px;
 	display: flex;
-	justify-content: center;
+	right:0px;
 }
 
 
-.summary-unit {
-	margin: 50px 0;
+.unit4 img {
+	position: absolute;
+	width: 100px;
+	display: flex;
+	right:0px;
 }
 
-
-.summary-title {
-	color:#0080c9;
-	font-family:Calibri, sans-serif;
-	font-size:2.0rem;
-	font-style:normal;
-	font-variant:normal;
-	line-height:1.2;
-	margin: 20px 0;
-}
-
-.chapter li {
- list-style: none;
-}
-
-
-.chapter-title span {
-	text-transform: uppercase;
-	color: red;
-	font-weight: bold;
-}
-
-.chapter-subtitle span {
-	font-size: 1.0rem;
-	font-weight: bold;
+.unit5 img {
+	position: absolute;
+	width: 100px;
+	display: flex;
+	right:0px;
 }
 
 
 /* PÁGINA 9 */
 
+
 /* PÁGINA 10 */
 
-.slanted-card {
-	background-color: rgb(255, 255, 255);
-	margin: 50px 100px;
-	padding: 50px 80px;
-	border-radius: 25px;
-}
 
-.content-slanted-card img {
-	width: 80px;
-	height: 80px;
-	margin-top: 0.2rem;
-}
-
-
-h2 {
-	font-size: 4rem;
-	color:#0080c9;
-	font-family:Calibri, sans-serif;
+.unit6 img {
+	position: absolute;
+	width: 100px;
 	display: flex;
-	justify-content: center;
+	left:0px;
+	margin-top: 40px;
 }
 
-
-.summary-unit {
-	margin: 50px 0;
-}
-
-
-.summary-title {
-	color:#0080c9;
-	font-family:Calibri, sans-serif;
-	font-size:2.0rem;
-	font-style:normal;
-	font-variant:normal;
-	line-height:1.2;
-	margin: 20px 0;
-}
-
-.chapter li {
- list-style: none;
-}
-
-
-.chapter-title span {
-	text-transform: uppercase;
-	color: red;
-	font-weight: bold;
-}
-
-.chapter-subtitle span {
-	font-size: 1.0rem;
-	font-weight: bold;
+.unit7 img {
+	position: absolute;
+	width: 100px;
+	display: flex;
+	left:0px;
 }
 
 /* PÁGINA 10 */
 
 /* PÁGINA 11 */
 
-.slanted-card {
-	background-color: rgb(255, 255, 255);
-	margin: 50px 100px;
-	padding: 50px 80px;
-	border-radius: 25px;
-}
-
-.content-slanted-card img {
-	width: 80px;
-	height: 80px;
-	margin-top: 0.2rem;
-}
-
-
-h2 {
-	font-size: 4rem;
-	color:#0080c9;
-	font-family:Calibri, sans-serif;
+.unit8 img {
+	position: absolute;
+	width: 100px;
 	display: flex;
-	justify-content: center;
+	right:0px;
 }
 
-
-.summary-unit, .summary-other {
-	margin: 50px 0;
-}
-
-
-.summary-title {
-	color:#0080c9;
-	font-family:Calibri, sans-serif;
-	font-size:2.0rem;
-	font-style:normal;
-	font-variant:normal;
-	line-height:1.2;
-	margin: 20px 0;
-}
-
-.chapter li {
- list-style: none;
-}
-
-
-.chapter-title span {
-	text-transform: uppercase;
-	color: red;
-	font-weight: bold;
-}
-
-.chapter-subtitle span {
-	font-size: 1.0rem;
-	font-weight: bold;
-}
-
-.chapter-other span {
-	font-size: 1.2rem;
+.unit9 img {
+	position: absolute;
+	width: 100px;
+	display: flex;
+	right:0px;
 }
 
 /* PÁGINA 11 */
 
-.slanted-card {
-	background-color: rgb(255, 255, 255);
-	margin: 50px 100px;
-	padding: 50px 80px;
-	border-radius: 25px;
-}
-
-.content-slanted-card img {
-	width: 80px;
-	height: 80px;
-	margin-top: 0.2rem;
-}
 
 
-h2 {
-	font-size: 4rem;
-	color:#0080c9;
-	font-family:Calibri, sans-serif;
-	display: flex;
-	justify-content: center;
-}
 
 
-.summary-unit, .summary-other {
-	margin: 50px 0;
-}
-
-
-.summary-title {
-	color:#0080c9;
-	font-family:Calibri, sans-serif;
-	font-size:2.0rem;
-	font-style:normal;
-	font-variant:normal;
-	line-height:1.2;
-	margin: 20px 0;
-}
-
-.chapter li {
- list-style: none;
-}
-
-
-.chapter-title span {
-	text-transform: uppercase;
-	color: red;
-	font-weight: bold;
-}
-
-.chapter-subtitle span {
-	font-size: 1.0rem;
-	font-weight: bold;
-}
-
-.chapter-other span {
-	font-size: 1.2rem;
-}
 
