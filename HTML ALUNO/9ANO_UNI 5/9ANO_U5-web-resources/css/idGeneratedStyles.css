@@ -478,7 +478,7 @@ p.ParaOverride-25 {
 }
 p.ParaOverride-26 {
 	margin-top:9px;
-	text-align:right;
+	text-align:center;
 }
 p.ParaOverride-27 {
 	text-align:center;
@@ -532,7 +532,7 @@ p.ParaOverride-39 {
 }
 p.ParaOverride-40 {
 	margin-left:28px;
-	margin-top:227px;
+	margin-top:27px;
 }
 li.ParaOverride-41 {
 	margin-bottom:125px;
@@ -605,11 +605,10 @@ p.ParaOverride-56 {
 	margin-bottom:6px;
 }
 li.ParaOverride-57 {
-	margin-top:142px;
+	margin-top:22px;
 	text-indent:0px;
 }
 li.ParaOverride-58 {
-	margin-top:176px;
 	text-indent:0px;
 }
 p.ParaOverride-59 {
@@ -635,7 +634,7 @@ li.ParaOverride-62 {
 }
 li.ParaOverride-63 {
 	margin-left:17px;
-	margin-top:94px;
+	margin-top:4px;
 	page-break-after:always;
 	text-align:left;
 	text-indent:0px;
@@ -1032,7 +1031,7 @@ table._idGenTablePara-1 {
 	-ms-transform-origin:0% 0%;
 	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	-webkit-transform-origin:0% 0%;
-	height:17.84px;
+	height:30.84px;
 	left:0px;
 	position:absolute;
 	top:0px;
@@ -1048,11 +1047,11 @@ table._idGenTablePara-1 {
 	-ms-transform-origin:0% 0%;
 	-webkit-transform:translate(5.422px,3.971px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	-webkit-transform-origin:0% 0%;
-	height:7.77px;
+	height:13px;
 	left:0px;
 	overflow:hidden;
 	position:absolute;
-	top:0px;
+	top:-2px;
 	transform:translate(5.422px,3.971px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	transform:translate(5.422px,3.971px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	transform-origin:0% 0%;
@@ -1062,7 +1061,7 @@ table._idGenTablePara-1 {
 }
 #_idContainer011, #_idContainer039, #_idContainer230, #_idContainer353, #_idContainer430 {
 	display:inline-block;
-	height:22px;
+	height:42px;
 	position:relative;
 	width:497px;
 }
@@ -1087,14 +1086,12 @@ table._idGenTablePara-1 {
 	-webkit-transform-origin:0% 0%;
 	height:7.77px;
 	left:0px;
-	overflow:hidden;
 	position:absolute;
 	top:0px;
 	transform:translate(5.422px,3.971px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	transform:translate(5.422px,3.971px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	transform-origin:0% 0%;
 	transform-origin:0% 0%;
-	width:161.27px;
 	z-index:1;
 }
 #_idContainer040 {
@@ -1529,6 +1526,9 @@ table._idGenTablePara-1 {
 	height:205px;
 	width:243px;
 }
+
+
+
 #_idContainer074 {
 	-ms-transform:translate(0.000px,88.691px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	-ms-transform-origin:0% 0%;
@@ -2873,7 +2873,7 @@ table._idGenTablePara-1 {
 }
 #_idContainer221 {
 	display:inline-block;
-	height:214px;
+	height:14px;
 	width:285px;
 }
 #_idContainer232 {
@@ -4941,7 +4941,7 @@ table._idGenTablePara-1 {
 	-ms-transform-origin:0% 0%;
 	-webkit-transform:translate(5.422px,3.971px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	-webkit-transform-origin:0% 0%;
-	height:7.77px;
+	height:30.77px;
 	left:0px;
 	overflow:hidden;
 	position:absolute;
