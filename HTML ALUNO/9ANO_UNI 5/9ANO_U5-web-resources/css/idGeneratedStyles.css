@@ -68,7 +68,7 @@ p.Normal {
 p.Par-grafo-b-sico {
 	color:#000000;
 	font-family:"Minion Pro", serif;
-	font-size:12px;
+	font-size:18px;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
@@ -160,7 +160,7 @@ li.questao-1-, p.questao-1- {
 	font-weight:normal;
 	line-height:1.25;
 	list-style-position:outside;
-	list-style-type:decimal;
+	list-style-type:none;
 	margin-bottom:6px;
 	margin-left:28px;
 	margin-right:0;
@@ -297,10 +297,10 @@ p.titulo-01 {
 	font-variant:normal;
 	font-weight:bold;
 	line-height:1.2;
-	margin-bottom:3px;
+	margin-bottom:13px;
 	margin-left:0;
 	margin-right:0;
-	margin-top:11px;
+	margin-top:31px;
 	orphans:1;
 	page-break-after:auto;
 	page-break-before:auto;
@@ -486,7 +486,6 @@ p.ParaOverride-27 {
 p.ParaOverride-28 {
 	margin-top:3px;
 	text-align:center;
-	text-indent:0px;
 }
 p.ParaOverride-29 {
 	margin-bottom:9px;
@@ -509,7 +508,6 @@ p.ParaOverride-33 {
 }
 p.ParaOverride-34 {
 	text-align:center;
-	text-indent:0px;
 }
 p.ParaOverride-35 {
 	margin-bottom:9px;
@@ -598,7 +596,6 @@ p.ParaOverride-54 {
 	text-align:center;
 }
 p.ParaOverride-55 {
-	margin-right:179px;
 	page-break-after:always;
 }
 p.ParaOverride-56 {
@@ -628,7 +625,6 @@ p.ParaOverride-61 {
 	text-align:center;
 }
 li.ParaOverride-62 {
-	margin-top:111px;
 	page-break-after:always;
 	text-indent:0px;
 }
@@ -740,12 +736,12 @@ p.ParaOverride-85 {
 }
 li.ParaOverride-86 {
 	list-style-position:outside;
-	list-style-type:decimal;
+	list-style-type:none;
 	margin-left:46px;
 	text-indent:0px;
 }
 li.ParaOverride-87 {
-	list-style-type:decimal;
+	list-style-type:none;
 	text-indent:0px;
 }
 p.ParaOverride-88 {
@@ -793,9 +789,10 @@ p.ParaOverride-96 {
 span.CharOverride-1 {
 	color:#0080c9;
 	font-family:Calibri, sans-serif;
-	font-size:24px;
+	font-size:30px;
 	font-style:normal;
 	font-weight:normal;
+	padding: 15px;
 }
 span.CharOverride-2 {
 	color:#575756;
@@ -993,13 +990,13 @@ table._idGenTablePara-1 {
 	height:717px;
 	overflow:hidden;
 	position:relative;
-	width:1199px;
+	width:100%;
 }
 #_idContainer003 {
 	display:inline-block;
-	height:122px;
 	position:relative;
 	width:286px;
+	padding: 20px;
 }
 #_idContainer006 {
 	display:inline-block;
@@ -1071,13 +1068,13 @@ table._idGenTablePara-1 {
 	-webkit-transform:translate(0.000px,0.000px) rotate(359.000deg) skew(0.000deg) scale(1.000,1.000);
 	-webkit-transform-origin:50% 50%;
 	display:inline-block;
-	height:108px;
 	position:relative;
 	transform:translate(0.000px,0.000px) rotate(359.000deg) skew(0.000deg) scale(1.000,1.000);
 	transform:translate(0.000px,0.000px) rotate(359.000deg) skew(0.000deg) scale(1.000,1.000);
 	transform-origin:50% 50%;
 	transform-origin:50% 50%;
 	width:462px;
+	padding: 20px;
 }
 #_idContainer038, #_idContainer229, #_idContainer352, #_idContainer429 {
 	-ms-transform:translate(5.422px,3.971px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
@@ -1523,8 +1520,14 @@ table._idGenTablePara-1 {
 }
 #_idContainer073 {
 	display:inline-block;
-	height:205px;
 	width:243px;
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+	border-color:#0080c9;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	border-width:2px;
+	margin-top: 20px;
 }
 
 
@@ -2874,7 +2877,6 @@ table._idGenTablePara-1 {
 #_idContainer221 {
 	display:inline-block;
 	height:14px;
-	width:285px;
 }
 #_idContainer232 {
 	-ms-transform:translate(0.000px,79.370px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
@@ -5211,9 +5213,8 @@ table._idGenTablePara-1 {
 	width:154px;
 }
 img._idGenObjectAttribute-1 {
-	height:100.00%;
 	min-width:100%;
-	width:100.00%;
+	width:100%;
 }
 img._idGenObjectAttribute-2 {
 	height:103px;
@@ -5495,8 +5496,14 @@ div._idGenObjectStyleOverride-1 {
 	border-width:0px;
 }
 div._idGenObjectStyleOverride-2 {
-	background-color:#fed381;
 	border-width:0px;
+	
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+	border-color:#0080c9;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	border-width:2px;
 }
 div._idGenObjectStyleOverride-3 {
 	background-color:#ffffff;
@@ -5635,6 +5642,7 @@ div._idGenObjectStyleOverride-30 {
 div._idGenObjectStyleOverride-31 {
 	background-color:#fce1da;
 	border-width:0px;
+	padding: 15px;
 }
 div._idGenObjectStyleOverride-32 {
 	border-color:#575756;
@@ -5653,11 +5661,11 @@ div._idGenObjectStyleOverride-35 {
 	border-width:0px;
 }
 div._idGenObjectStyleOverride-36 {
-	background-color:#e3e3e3;
 	border-width:0px;
 }
 div._idGenObjectLayout-1 {
 	text-align:center;
+	padding: 15px;
 }
 div._idGenObjectLayout-2 {
 	margin:118px -118px 118px -118px;

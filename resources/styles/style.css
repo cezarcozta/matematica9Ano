@@ -10,12 +10,13 @@
 
 
 main{
-	background-color:rgb(211,211,211);
-	width: 800px;
+	background-color:rgb(247, 241, 241);
+	width: 600px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: 0 auto;
+	padding: 30px;
 }
 
 html {
@@ -25,6 +26,7 @@ html {
 
 section {
 	margin: 30px 0;
+	width: 100%;
 }
 
 .line-above {
@@ -34,7 +36,7 @@ section {
 
 .question-img {
 	display:inline-block;
-	width:243px;
+	width:180px;
 	margin: 20px auto;
 }
 
@@ -44,6 +46,31 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+h1 {
+	padding: 15px;
+ }
+ 
+
+ .row-flex {
+	display: inline-flex;
+ }
+
+ .layoutTwoColums {
+	display: flex;
+    grid-template-columns: (2,1fr);
+	gap: 30px;
+	margin: 20px 0;
+}
+
+
+ li.questao-1-, li.questao-a- {
+    list-style: none;
 }
 
 /* .container {
