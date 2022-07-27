@@ -73,6 +73,10 @@ h1 {
     list-style: none;
 }
 
+.full-width img {
+	width: 100%;
+}
+
 /* .container {
 	display: flex;
 	flex-direction: column;
